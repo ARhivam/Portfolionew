@@ -83,9 +83,9 @@ const Navbar = () => {
         <li><Link to="/technologies">Technologies</Link></li>
         <SocialIcons>
           <SocialIcon href="https://www.linkedin.com/"><FaLinkedin /></SocialIcon>
-          <SocialIcon href="https://twitter.com/"><FaTwitter /></SocialIcon>
+          {/* <SocialIcon href="https://twitter.com/"><FaTwitter /></SocialIcon> */}
           <SocialIcon href="https://github.com/"><FaGithub /></SocialIcon>
-          <SocialIcon href="https://www.youtube.com/"><FaYoutube /></SocialIcon>
+          {/* <SocialIcon href="https://www.youtube.com/"><FaYoutube /></SocialIcon> */}
         </SocialIcons>
       </ul>
     </NavMenuStyles>

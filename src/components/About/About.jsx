@@ -62,7 +62,7 @@ const About = () => {
         <p>
           Sed in neque eu enim fermentum posuere. Donec euismod orci vitae felis {' '} euismod laoreet. Nulla facilisi. Nulla facilisi.
         </p>
-        <Button>Download CV</Button>
+        <Button>Download Resume</Button>
       </AboutText>
       <AboutImageContainer>
         <AboutImage src={images.about} alt="about img" />

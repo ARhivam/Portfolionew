@@ -54,8 +54,14 @@ const ProjectImage = styled.img`
 `;
 
 const Projects = () => {
-  const redirectToGitHub = () => {
-    window.location.href = 'https://github.com'; 
+  const redirectToGitHubChessGame = () => {
+    window.location.href = 'https://github.com/ARhivam/Chess-Game'; 
+  };
+  const redirectToGitHubChatApp = () => {
+    window.location.href = 'https://github.com/ARhivam/Chat-App'; 
+  };
+  const redirectToGitHubHospital = () => {
+    window.location.href = 'https://github.com/ARhivam/Hospital-Management-System'; 
   };
 
   return (
@@ -63,12 +69,12 @@ const Projects = () => {
       <GlobalStyles />
       <h2>Projects</h2>
       <ProjectGrid>
-        <ProjectCardLink onClick={redirectToGitHub}>
+        <ProjectCardLink onClick={redirectToGitHubChessGame}>
           <ProjectCard>
             <ProjectImage src={images.text_image} alt="Text to Image Generator" />
-            <ProjectTitle>Text to Image Generator</ProjectTitle>
+            <ProjectTitle>Chess Game</ProjectTitle>
             <ProjectDescription>
-              Convert text input into visually appealing images effortlessly.
+              Project made by using socket.io node.js express.js and javascript .
             </ProjectDescription>
           </ProjectCard>
         </ProjectCardLink>
@@ -90,7 +96,7 @@ const Projects = () => {
             </ProjectDescription>
           </ProjectCard>
         </ProjectCardLink> */}
-        <ProjectCardLink onClick={redirectToGitHub}>
+        <ProjectCardLink onClick={redirectToGitHubHospital}>
           <ProjectCard>
             <ProjectImage src={images.hms} alt="Hospital Management System" />
             <ProjectTitle>Hospital Management System</ProjectTitle>
@@ -99,12 +105,12 @@ const Projects = () => {
             </ProjectDescription>
           </ProjectCard>
         </ProjectCardLink>
-        <ProjectCardLink onClick={redirectToGitHub}>
+        <ProjectCardLink onClick={redirectToGitHubChatApp}>
           <ProjectCard>
             <ProjectImage src={images.chat} alt="Chat Application" />
             <ProjectTitle>Chat Application</ProjectTitle>
             <ProjectDescription>
-              Get easy and seamless chat services, with our modern reactjs chat application. Which has a great User Interface.
+              Chat Application made by socket.io node.js express.js html css.
             </ProjectDescription>
           </ProjectCard>
         </ProjectCardLink>
