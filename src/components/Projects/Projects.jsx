@@ -78,24 +78,6 @@ const Projects = () => {
             </ProjectDescription>
           </ProjectCard>
         </ProjectCardLink>
-        {/* <ProjectCardLink onClick={redirectToGitHub}>
-          <ProjectCard>
-            <ProjectImage src={images.sms} alt="School Management System" />
-            <ProjectTitle>School Management System</ProjectTitle>
-            <ProjectDescription>
-              Streamline school operations with this comprehensive management system.
-            </ProjectDescription>
-          </ProjectCard>
-        </ProjectCardLink> */}
-        {/* <ProjectCardLink onClick={redirectToGitHub}>
-          <ProjectCard>
-            <ProjectImage src={images.appointment} alt="Doctor Appointment Flutter Mobile App" />
-            <ProjectTitle>Doctor Appointment Flutter Mobile App</ProjectTitle>
-            <ProjectDescription>
-              Connect doctors with patients seamlessly using this Flutter-based mobile app.
-            </ProjectDescription>
-          </ProjectCard>
-        </ProjectCardLink> */}
         <ProjectCardLink onClick={redirectToGitHubHospital}>
           <ProjectCard>
             <ProjectImage src={images.hms} alt="Hospital Management System" />
@@ -114,15 +96,6 @@ const Projects = () => {
             </ProjectDescription>
           </ProjectCard>
         </ProjectCardLink>
-        {/* <ProjectCardLink onClick={redirectToGitHub}>
-          <ProjectCard>
-            <ProjectImage src={images.lms} alt="Learning Management System" />
-            <ProjectTitle>Learning Management System</ProjectTitle>
-            <ProjectDescription>
-              Manage Your Online School/Learning operations and records of your school efficiently with this advanced system.
-            </ProjectDescription>
-          </ProjectCard>
-        </ProjectCardLink> */}
       </ProjectGrid>
     </ProjectsContainer>
   );
